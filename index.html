@@ -1,0 +1,51 @@
+<!DOCTYPE html> 
+<html lang="en" data-theme="night"> 
+ 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Document</title> 
+ 
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" /> 
+    <script src="https://cdn.tailwindcss.com"></script> 
+ 
+</head> 
+ 
+<body class="flex items-center justify-center h-screen"> 
+ 
+ 
+    <div class="w-2/3 bg-base-300  rounded-3xl border-2 border-primary shadow-lg shadow-cyan-500"> 
+        <div class="flex justify-between items-center p-20 shadow-inner shadow-cyan-500 rounded-3xl"> 
+            <div class="flex-1 flex flex-col gap-2 items-start"> 
+                <button class="btn btn-success"> 
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" 
+                        stroke="currentColor" class="size-6"> 
+                        <path stroke-linecap="round" stroke-linejoin="round" 
+                            d="M5.636 5.636a9 9 0 1 0 12.728 0M12 3v9" /> 
+                    </svg> 
+                </button> 
+                <button class="btn btn-primary"> 
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" 
+                        stroke="currentColor" class="size-6"> 
+                        <path stroke-linecap="round" stroke-linejoin="round" 
+                            d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" /> 
+                    </svg> 
+                </button> 
+            </div> 
+            <div class="flex items-center gap-5 flex-1 text-6xl text-primary font-black "> 
+                <p id="time">
+                    <span></span>:<span></span>:<span></span>
+                </p>
+            </div> 
+            <div class="flex-1 flex items-end flex-col text-xl text-accent"> 
+                <p>2024</p> 
+                <p>July</p>
+                <p>Thuesday</p> 
+            </div> 
+        </div> 
+    </div> 
+ 
+    <script src="./main.js"></script> 
+</body> 
+ 
+</html>
